@@ -1,0 +1,9 @@
+pandas
+numpy
+nltk
+seaborn
+matplotlib
+tk
+deep-translator
+scikit-learn
+vaderSentiment
