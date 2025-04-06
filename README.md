@@ -36,7 +36,7 @@ Este projeto consiste em uma ferramenta gráfica para análise de logs de um cha
 4. Execute o programa:
 
    ```bash
-   python nome_do_arquivo.py
+   python code.py
    ```
 
 > **Importante:** As bibliotecas `nltk` e `tkinter` podem precisar de instalação adicional dependendo do seu sistema operacional.
