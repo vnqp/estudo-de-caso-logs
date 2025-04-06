@@ -16,8 +16,8 @@ Este projeto consiste em uma ferramenta gráfica para análise de logs de um cha
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/analisador-chatbot.git
-   cd analisador-chatbot
+   git clone https://github.com/seu-usuario/estudo-de-caso-logs.git
+   cd estudo-de-caso-logs
    ```
 
 2. Crie um ambiente virtual (opcional, mas recomendado):
