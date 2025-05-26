@@ -20,12 +20,11 @@
 - **Suporte ao Cliente** — Detectam problemas recorrentes e gargalos na experiência do usuário.
 - **Desenvolvedores** — Priorizam correções com base no impacto emocional do feedback.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Principais Tecnologias Utilizadas
 
 - **Python 3**
-- **Tkinter** — Interface gráfica
+- **Streamlit** — Interface gráfica
 - **NLTK + VADER** — Processamento de linguagem e análise de sentimento
-- **Google Translator API** — Tradução automática
 - **Matplotlib / Seaborn** — Visualizações gráficas
 
 ## Instalação e Configuração
@@ -51,7 +50,7 @@
    ```
 
 > ## **Importante:** 
-> - As bibliotecas `nltk` e `tkinter` podem precisar de instalação adicional dependendo do seu sistema operacional.
+> - A biblioteca `nltk` pode precisar de instalação adicional dependendo do seu sistema operacional.
 > - É necessário dar cd na pasta .\src\ do projeto antes de executar o streamlit para evitar conflitos.
 
 ## Organização do Projeto
