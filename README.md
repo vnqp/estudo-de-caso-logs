@@ -57,15 +57,19 @@
 ## Organização do Projeto
 
 ```
-analisador-chatbot/
+estudo-de-caso-logs/
 │
-├── src              # Pasta principal do projeto com o código e data file de reviews.
+├── src/
+│ ├── main.py # Executável principal com interface Streamlit
+│ ├── preprocessor.py # Limpeza e normalização de texto
+│ ├── sentiment_analyzer.py # Análise de sentimentos com VADER
+│ ├── keyword_detector.py # Identificação de palavras-chave para o dicionário.
+│ ├── visualization.py # Geração de gráficos com matplotlib/seaborn
+│ ├── data_loader.py # Carregamento e manipulação de dados
+│ └── data/
+│ └── amazon_reviews.csv # Base de dados de avaliações da Amazon
 │
-│
-│
-│
-│
-├── requirements.txt     # Lista de dependências
-├── README.md            # Este arquivo
-└── .gitignore           # Arquivos a serem ignorados pelo Git
+├── requirements.txt # Dependências do projeto
+├── README.md # Este arquivo
+└── .gitignore # Arquivos ignorados pelo Git
 ```
