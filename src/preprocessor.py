@@ -1,5 +1,6 @@
 import re
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 
 # Download dos recursos necessários do NLTK
