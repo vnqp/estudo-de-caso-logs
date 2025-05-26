@@ -39,7 +39,12 @@ Este projeto consiste em uma ferramenta gráfica para análise de logs de um cha
 ```
 analisador-chatbot/
 │
-├── code.py              # Código principal com interface gráfica
+├── src              # Pasta principal do projeto com o código e data file de reviews.
+│
+│
+│
+│
+│
 ├── requirements.txt     # Lista de dependências
 ├── README.md            # Este arquivo
 └── .gitignore           # Arquivos a serem ignorados pelo Git
