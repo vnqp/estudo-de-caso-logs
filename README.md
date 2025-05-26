@@ -20,23 +20,16 @@ Este projeto consiste em uma ferramenta gráfica para análise de logs de um cha
    cd estudo-de-caso-logs
    ```
 
-2. Crie um ambiente virtual (opcional, mas recomendado):
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # ou venv\Scripts\activate no Windows
-   ```
-
-3. Instale as dependências:
+2. Instale as dependências:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Execute o programa:
+3. Execute o programa:
 
    ```bash
-   python code.py
+   python -m streamlit src/main.py
    ```
 
 > **Importante:** As bibliotecas `nltk` e `tkinter` podem precisar de instalação adicional dependendo do seu sistema operacional.
