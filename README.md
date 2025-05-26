@@ -29,7 +29,8 @@ Este projeto consiste em uma ferramenta gráfica para análise de logs de um cha
 3. Execute o programa:
 
    ```bash
-   python -m streamlit src/main.py
+   cd .\src\
+   python -m streamlit run .\main.py
    ```
 
 > **Importante:** As bibliotecas `nltk` e `tkinter` podem precisar de instalação adicional dependendo do seu sistema operacional.
