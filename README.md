@@ -50,7 +50,7 @@
    python -m streamlit run .\main.py
    ```
 
-> **Importante:** As bibliotecas `nltk` e `tkinter` podem precisar de instalação adicional dependendo do seu sistema operacional |
+> **Importante:** As bibliotecas `nltk` e `tkinter` podem precisar de instalação adicional dependendo do seu sistema operacional.
 > É necessário dar cd na pasta .\src\ do projeto antes de executar o streamlit para evitar conflitos.
 
 ## Organização do Projeto
