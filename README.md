@@ -1,43 +1,32 @@
- Analisador de Logs de Chatbot — SAFE: Sentiment Analysis for Feedback Evaluation
+# 🔍 SAFE: Sentiment Analysis for Feedback Evaluation
 
-Este projeto é uma ferramenta gráfica interativa para análise de sentimentos em interações de chatbot e avaliações de produtos, com ênfase na identificação de respostas impróprias ou desalinhadas ao contexto. A interface foi desenvolvida com Tkinter, e o processamento de linguagem natural é realizado com NLTK, VADER e recursos de tradução automática.
- Funcionalidades Principais
+**SAFE** é uma ferramenta interativa para análise de sentimentos em interações de chatbots e avaliações de produtos, com foco na detecção de respostas impróprias ou desalinhadas com o contexto. Utiliza técnicas de Processamento de Linguagem Natural (PLN), análise de confiabilidade e visualização gráfica para auxiliar na interpretação de feedbacks.
 
-    Limpeza e pré-processamento de texto, com remoção de palavras irrelevantes e normalização.
+## 🧠 Funcionalidades Principais
 
-    Análise de sentimento com VADER, classificando textos como positivos, neutros ou negativos.
+- **Limpeza e pré-processamento** textual, incluindo remoção de stopwords e normalização.
+- **Análise de sentimentos com VADER**, categorizando como positivo, neutro ou negativo.
+- **Detecção de incongruência** entre nota e sentimento (ex: nota alta com sentimento negativo).
+- **Cálculo de confiabilidade** da análise com base em intensidade e consistência do score.
+- **Identificação de temas relevantes** por extração de palavras-chave críticas.
+- **Classificação de respostas** como apropriadas ou impróprias, com base no conteúdo e contexto.
+- **Visualizações gráficas** da distribuição de sentimentos, temas e confiabilidade.
+- **Interface gráfica com Tkinter**, intuitiva e funcional, permitindo operação com poucos cliques.
 
-    Detecção de incongruência entre nota e sentimento, útil em avaliações com notas destoantes do texto.
+## 🎯 Público-Alvo
 
-    Cálculo da confiabilidade da análise de sentimento, com base na intensidade e consistência do score.
+- **Gerentes de Produto** — Avaliam pontos fortes e fracos com base em feedbacks reais.
+- **Equipes de Marketing** — Identificam temas positivos para uso estratégico em campanhas.
+- **Suporte ao Cliente** — Detectam problemas recorrentes e gargalos na experiência do usuário.
+- **Desenvolvedores** — Priorizam correções com base no impacto emocional do feedback.
 
-    Identificação de temas relevantes mencionados pelos usuários (palavras-chave críticas).
+## 🛠️ Tecnologias Utilizadas
 
-    Classificação automática de respostas como apropriadas ou impróprias, com base no contexto e sentimento.
-
-    Visualização gráfica da distribuição dos sentimentos, temas e confiabilidade.
-
-    Interface gráfica funcional com Tkinter, permitindo interação completa com o processo em poucos cliques.
-
- Público-Alvo
-
-    Gerentes de Produto: Avaliação de pontos fortes e fracos com base em feedbacks reais.
-
-    Equipes de Marketing: Identificação de aspectos positivos para divulgação estratégica.
-
-    Suporte ao Cliente: Detecção de recorrência de problemas e gargalos na experiência do usuário.
-
-    Desenvolvedores: Priorização de correções com base em impacto emocional percebido.
-
- Como Usar
-
-    Carregue seu arquivo de logs ou reviews.
-
-    Acompanhe o pré-processamento e a tradução automática das entradas.
-
-    Visualize a análise de sentimentos, os temas extraídos e possíveis anomalias.
-
-    Utilize os gráficos para extrair insights imediatos sobre a percepção dos usuários.
+- **Python 3**
+- **Tkinter** — Interface gráfica
+- **NLTK + VADER** — Processamento de linguagem e análise de sentimento
+- **Google Translator API** — Tradução automática
+- **Matplotlib / Seaborn** — Visualizações gráficas
 
 ## Instalação e Configuração
 
