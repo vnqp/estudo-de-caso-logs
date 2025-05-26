@@ -11,7 +11,7 @@
 - **Identificação de temas relevantes** por extração de palavras-chave críticas.
 - **Classificação de respostas** como apropriadas ou impróprias, com base no conteúdo e contexto.
 - **Visualizações gráficas** da distribuição de sentimentos, temas e confiabilidade.
-- **Interface gráfica com Tkinter**, intuitiva e funcional, permitindo operação com poucos cliques.
+- **Interface gráfica com Streamlit**, intuitiva e funcional, permitindo operação com poucos cliques.
 
 ## 🎯 Público-Alvo
 
