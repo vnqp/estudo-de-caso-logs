@@ -5,11 +5,10 @@
 ## 🧠 Funcionalidades Principais
 
 - **Limpeza e pré-processamento** textual, incluindo remoção de stopwords e normalização.
-- **Análise de sentimentos com VADER**, categorizando como positivo, neutro ou negativo.
+- **Análise de sentimentos com VADER**, categorizando reviews como positivo, neutro ou negativo para análise de dados.
 - **Detecção de incongruência** entre nota e sentimento (ex: nota alta com sentimento negativo).
 - **Cálculo de confiabilidade** da análise com base em intensidade e consistência do score.
-- **Identificação de temas relevantes** por extração de palavras-chave críticas.
-- **Classificação de respostas** como apropriadas ou impróprias, com base no conteúdo e contexto.
+- **Identificação de temas relevantes sobre as vendas** por extração de palavras-chave críticas.
 - **Visualizações gráficas** da distribuição de sentimentos, temas e confiabilidade.
 - **Interface gráfica com Streamlit**, intuitiva e funcional, permitindo operação com poucos cliques.
 
