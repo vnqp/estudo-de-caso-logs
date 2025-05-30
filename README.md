@@ -71,3 +71,36 @@ estudo-de-caso-logs/
 ├── README.md # Este arquivo
 └── .gitignore # Arquivos ignorados pelo Git
 ```
+
+## 👥 Equipe
+
+| Nome | GitHub |
+|------|--------|
+| Vinícius Moreno | [@vnqp](https://github.com/vnqp) |
+| Gustavo Luz | [@guluz20](https://github.com/guluz20) |
+
+---
+
+## 🧠 Disciplinas Envolvidas
+
+- Linguagens Formais e Autômatos
+
+---
+
+## 🏫 Informações Acadêmicas
+
+- Universidade: **Universidade Braz Cubas**
+- Curso: **Ciência da Computação / Análise e Desenvolvimento de Sistemas**
+- Semestre: 6º
+- Período: Manhã
+- Professora orientadora: **Dra. Andréa Ono Sakai**
+- Evento: **Mostra de Tecnologia 1º Semestre de 2025**
+- Local: Laboratório 12
+- Datas: 05 e 06 de junho de 2025
+
+---
+
+## 📄 Licença
+
+MIT License — sinta-se à vontade para utilizar, estudar e adaptar este projeto.
+
